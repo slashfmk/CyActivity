@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.group3sc2.cyactivity.repository.ReportTypeRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.325 s <<< FAILURE! - in com.group3sc2.cyactivity.repository.ReportTypeRepositoryTest
+addRepoType{ReportType}  Time elapsed: 0.141 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [com.group3sc2.cyactivity.model.ReportType r] in method [public void com.group3sc2.cyactivity.repository.ReportTypeRepositoryTest.addRepoType(com.group3sc2.cyactivity.model.ReportType)].
+
+editReportType{String, long}  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [java.lang.String title] in method [public void com.group3sc2.cyactivity.repository.ReportTypeRepositoryTest.editReportType(java.lang.String,long)].
+
